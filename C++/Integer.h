@@ -11,10 +11,6 @@ bool isPrime(int n);
 
 bool isPalindrom(int n);
 
-int gcd(int a, int b);
-
-int lcm(int a, int b);
-
 int factorial(int n);
 
 #endif 

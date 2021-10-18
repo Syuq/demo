@@ -1,10 +1,5 @@
 #include <bits/stdc++.h>
 
-//void findPrimeSequence(int N, int *primes) {
-  //if (N > 0) {
-  //}
-//}
-
 bool IsNumber(int *primes, int n) {
   int *lenght = primes + n, *postion = primes;
 
@@ -41,14 +36,6 @@ bool isPalindrom(int n) {
     return true;
   return false;
 }
-
-int gcd(int a, int b) {
-  if (b == 0)
-    return a;
-  return gcd(b, a % b);
-}
-
-int lcm(int a, int b) { return a * b / gcd(a, b); }
 
 int factorial(int n) {
   if (n == 1)
